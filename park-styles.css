@@ -4,10 +4,10 @@ body {
 	padding:0;
 }
 .gp-pagecontainer{
-	background-image:url("images/park-bg-img.png");
+	background:url("images/park-bg-img.png");
 	padding-bottom:40px;
-	background-size:100% 100%;
 	min-height:3600px;
+	background-repeat:no-repeat;
 }
 #header {
 	width:100%;
