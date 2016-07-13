@@ -394,9 +394,13 @@ div.button {
 }
 
 .address, .credits {
-	color:#cccccc;
+	color:#666666;
 	font-size:13px;
 	line-height:1.5em;
+}
+
+.credits a:any-link {
+	color:#666666;
 }
 
 .gp-social-image{
@@ -412,6 +416,7 @@ div.button {
 	float:right;
 	margin-left:5%;
 }
+
 
 #clock {
 	font-size: 21px;
