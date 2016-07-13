@@ -221,7 +221,7 @@ div.button {
 	width:250px;
 	height: 50px;
 }
-.button a:any-link {
+.button p a {
 	color:#FFFFFF;
     text-decoration: none;
 }
