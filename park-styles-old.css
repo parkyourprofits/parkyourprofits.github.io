@@ -26,9 +26,14 @@ body {
 	min-height: 75px;
 	width: 15%;
 	float: left;
-	padding: 25px 0 0 3%;
+	padding: 25px;
 }
-/*#nav-logo {
+#nav-logo img {
+	width:75%;
+	margin:0;
+}
+
+#nav-logo {
 	//background:url(images/nav-logo.png);
 	background-size:contain;
 	background-repeat: no-repeat;
@@ -38,19 +43,13 @@ body {
 	margin-left: 30px;
 	float: left;
 	padding: 0;
-}*/
-
-#nav-logo img {
-	width:75%;
-	margin:0;
 }
-
 
 #nav-logo img {
 }
 
 #nav{
-	width: 57.5%;
+	width: 54.5%;
 	margin-top: 15px;
 	height: 70px;
 	padding-top: 14px;
@@ -62,7 +61,6 @@ body {
 	width: 94%;
 	display: inline-block;
 	position: absolute;
-	padding: 0;
 }
 .gp-menuitem{
 	width: 14%;
@@ -123,7 +121,7 @@ body {
 #asset {
 	height: 320px;
 	background-color: #F7F7F7;
-	padding-top: 50px;
+	padding-top: 80px;
 	width: 100%;
 }
 
@@ -214,11 +212,9 @@ div.button {
 	text-align:center;
 }
 #purchase {
+	clear:both;
+	padding:50px 200px;
 	background-color:#ffffff;
-	height: 615px;
-	position: relative;
-	display: inline-block;
-	padding: 50px 10%;
 }
 #purchase p, #exchange p {
 	text-align:center;
@@ -226,18 +222,6 @@ div.button {
 	line-height: 2em;
 	width: 100%;
 }
-#purchase-form{
-	width: 75%;
-	margin: 0 auto;
-}
-#mailing-form.purchaseForm,
-#fullname.purchaseForm{
-	width: 100%;
-	margin: 10px auto 0;
-	height: 40px;
-	padding-left: 10px;
-}
-
 #disclosure{
 	background:url(images/press-bg.png);
 	background-repeat:no-repeat;
@@ -346,32 +330,25 @@ div.button {
 	font-style:italic;
 	position:relative;
 }
-/*#mailing form {
-	width: 45%;
+#mailing form {
+	width: 34%;
 	margin: 0 auto;
-}*/
-.newsletter_form{
-	height:50px !important;
-	width:40%;
-	margin:0 auto;
-	padding:0;
 }
-.newsletter {
-	width: 76%;
-	padding-left: 10px;
+form input[type='text'] {
+	width: 70%;
+	padding-left: 20px;
 	height: 50px;
-	margin: 0 auto;
 	float: left;
 }
-.submit {
+button {
 	width: 19%;
 	background-color: #0E4B80;
 	color: #FFFFFF;
 	font-size: 21px;
 	border: 1px solid #0E4B80;
+	line-height: 53px;
 	float: left;
 	margin-left: 1%;
-	line-height: 50px;
 }
 
 #footer {
@@ -414,110 +391,27 @@ div.button {
 }
 
 #clock {
-	font-size: 21px;
-	padding-top:10px;
-	letter-spacing:1px;
-}
-.SaleBegins_Assets,
-.price_distribution_Assets,
-.tablebg_Assets{
-	width:33%;
-	height:200px;
-	float:left;
-	margin-top:35px;
-}
-.price_distribution_Assets{
-		color:#353535;
-}
-.tablebg_Assets{
+	font-family:"Open Sans Light", sans-serif;  
+	font-size: 18px;
+	color:#000000;
 }
 
 #asset-table {
     margin-left:auto; 
     margin-right:auto;
 	text-align: center;
+	font-family:"Open Sans Light", sans-serif;  
 	font-size: 18px;
-    color: #353535;
-	width:75%;
-	height:80px;
+	background-color:#1E3A52;
+    color: white;
 }
 
 #asset-table tbody td {
-	font-size: 11px;
-	width: 25%;
-	font-weight: 100;
+    font-size: 18px;
+    width: 25%;
 }
 
 #asset-table tfoot td {
-    font-size: 21px;
+    font-size: 14px;
 }
-
-.sales{
-	font-size:11px;
-	text-align:center;
-	font-weight:100;
-	padding-top: 10px;
-}
-
-.clock-text{
-}
-
-
-dl{
-	width:100%;
-	height:200px;
-	margin:0;
-	line-height: 38px;
-}
-dt { 
-	display:block; 
-	float:left; 
-	width:50%; 
-	text-align: right;
-	font-size:11px;
-	font-weight: 100;
-}
-dt:after{
-	content:':';
-	padding-right:5px;
-}
-dd { 
-	display:block;
-	font-size:21px;
-}
-dd span{
-	font-size:11px;
-}
-.form_selectors{
-	font-size: 16px;
-	margin: 35px auto 30px;
-	width: 100%;
-	height: 100px;
-	color: #848789;
-	font-weight: 100;
-}
-.residence_form_label_one{
-	width:34%;
-	float:left;
-	margin: 0 0 20px 5%;
-}
-.residence_form_label_two{
-	width:34%;
-	float:right;
-	margin: 0 5% 20px 0;
-
-}
-.residence_form_label_three{
-	display:inline-block;
-	width:100%;
-	text-align:center;
-	margin-top:50px;
-}
-select{
-	font-size: 14px;
-	font-weight: 100;
-	padding: 4px;
-}
-
-
 
