@@ -209,6 +209,10 @@ div.button {
 	margin:0 auto;
 	height: 50px;
 }
+.button p {
+	color:#FFFFFF;
+	text-align:center;
+}
 .button button {
 	color:#FFFFFF;
     background: transparent;
@@ -217,6 +221,11 @@ div.button {
 	width:250px;
 	height: 50px;
 }
+.button a:any-link {
+	color:#FFFFFF;
+    text-decoration: none;
+}
+
 #purchase {
 	background-color:#ffffff;
 	height: 615px;
