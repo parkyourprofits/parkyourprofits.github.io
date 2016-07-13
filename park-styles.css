@@ -318,6 +318,16 @@ div.button {
 	background-color:#ffffff;
 	position:relative;
 }
+#exchange.infographic {
+	background:url(images/press-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	height:600px;
+}
+#exchange.infographic img {
+	margin: 0px auto 0px auto;
+}
+
 #exchange-text h2{
 	padding-top:80px;
 }
@@ -534,5 +544,10 @@ select{
 	padding: 4px;
 }
 
+.gp-pagecontainer img {
+	margin:150px auto 50px auto;
+	display:block;
+	clear:both;
+}
 
 
