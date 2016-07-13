@@ -62,24 +62,24 @@
 
     <div id="asset">
         <h2>ASSET</h2>
-
+        
         <div class="center-text">_
         </div>
-
+        
         <div class="price_distribution_Assets">
             <dl>
                 <dt>PARK PRICE</dt><dd>£10</dd>
                 <dt>WEEKLY DISTRIBUTION</dt><dd>p1.27 <span>(6.8% yearly)</span></dd>
             </dl>
         </div>
-
-
+        
+        
         <div class="SaleBegins_Assets">
             <div class="sales">SALE BEGINS &sol; NEXT DISTRIBUTION</div>
             <p id="clock" class="clock-text"></p>
         </div>
-
-
+        
+                
         <div class="tablebg_Assets">
              <table id="asset-table">
               <tbody>
@@ -98,9 +98,9 @@
               </tfoot>
             </table>
         </div>
+        
 
-
-
+     
 
     </div>
 
@@ -166,7 +166,7 @@
                       </select>
                   </label>
                   <!--<br>-->
-                  <label class="residence_form_label_three"><input type="checkbox" name="agree"> I accept the <a href="pdfs/SubscriptionAgreement.pdf" target="_blank">Subscription Agreement</a></label>
+                  <label class="residence_form_label_three"><input type="checkbox" name="agree"> Do you accept the <b>Subscriber Agreement</b>?</label>
                 </div>
             </form>
         </div>
@@ -182,8 +182,8 @@
         <div class="arrow-down">
         </div>
 
-        <div class="button">
-            <button type="submit" form="purchase-form">Buy PARK</button>
+        <div class="button" form="purchase-form">
+            <p>Buy PARK</p>
         </div>
 
     </div>
@@ -295,14 +295,14 @@
 
         <div class="gp_StayInTouch">Stay in touch!
         </div>
-
+        
         <div class="newsletter_form">
             <form action="https://getsimpleform.com/messages?form_api_token=abdf748b6e0cff589b2d97fd1fbcaac5" method="post">
                 <input class="newsletter" type="text" id="mailing-form" name="email" placeholder="enter your email..." required>
                 <button class="submit" type="submit">GO</button>
             </form>
         </div>
-
+        
     </div>
 
     <!-- END MAILING SLIDE -->
@@ -330,7 +330,7 @@
             </div>
 
             <div class="credits">
-                <br><a href="pdfs/PrivacyPolicy.pdf" target="_blank">Privacy Policy</a>
+                <br>jSapoznik.com Frelance Web Designer
             </div>
 
         </div>
@@ -352,6 +352,7 @@ $(function() {
   });
   $('#clock').countdown(new Date(Date.UTC(2016, 6 /* 0-11 */, 20, 0, 0, 0))).on('update.countdown', function(event) {
     var $this = $(this).html(event.strftime(''
+    + '<span>%-w</span> week%!w '
     + '<span>%-d</span> day%!d '
     + '<span>%H</span> hr '
     + '<span>%M</span> min '
