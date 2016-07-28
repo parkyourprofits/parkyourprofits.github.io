@@ -1,17 +1,30 @@
 body {
-	font-family:"Open Sans Regular", sans-serif;
+	font-family:"Open Sans", sans-serif;
 	margin:0;
 	padding:0;
 }
 .gp-pagecontainer{
-	background:url("images/park-bg-img.png");
-	padding-bottom:40px;
 	min-height:3600px;
+}
+.intro_container{
+	width:100%;
+	min-height:640px;
+}
+.hero_image{
+	background:url("images/park-bg-img.png");
+	width:100%;
+	height:640px;
+	background-size:cover;
+	padding-bottom:40px;
 	background-repeat:no-repeat;
+	position:absolute;
+	top:0;
+	min-width:900px;
 }
 #header {
 	width:100%;
 	height: 100px;
+	z-index:500;
 	
 }
 #navbar {
@@ -28,17 +41,6 @@ body {
 	float: left;
 	padding: 25px 0 0 3%;
 }
-/*#nav-logo {
-	//background:url(images/nav-logo.png);
-	background-size:contain;
-	background-repeat: no-repeat;
-	width: 10%;
-	min-height: 55px;
-	margin-top: 30px;
-	margin-left: 30px;
-	float: left;
-	padding: 0;
-}*/
 
 #nav-logo img {
 	width:75%;
@@ -51,7 +53,7 @@ body {
 
 #nav{
 	width: 49.5%;
-	margin-top: 15px;
+	margin: 15px 0 0 1.5%;
 	height: 70px;
 	padding-top: 14px;
 	display: inline;
@@ -65,23 +67,20 @@ body {
 	padding: 0;
 }
 .gp-menuitem{
-	width: 14%;
-	min-width: 60px;
 	text-align: center;
 	display: inline-block;
 }
 .gp-menubullet{
-	width: 5%;
-	min-width: 20px;
+	width: 10%;
 	text-align: center;
 	display: inline-block;
 }
 #nav a {
 	text-decoration:none;
-	font-size:0.6em;
+	font-size:0.75em;
 	color:#393544;
-	margin-left: 4%;
-	margin-right: 4%;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 #nav .current a {
@@ -98,45 +97,51 @@ body {
 	text-align:center;
 	margin-bottom:100px;
 	margin-top:16px;
-	font-family:"Open Sans Light", sans-serif;
+	font-family:"Open Sans", sans-serif;
+	font-weight:100;
 	font-size:1em;
 }
 
 .gp_intro{
 	width:100%;
-	min-height:400px;	
+	height:300px;
 }
 
 .gp-bigwhite_Park_logo{
 	width: 16%;
-	min-height: 100px;
+	height: 150px;
 	background:url(images/white-logo.png);
 	background-repeat:no-repeat;
 	background-size:contain;
-	margin:150px auto 80px;
+	margin:150px auto 10px;
 }
 .gp-heroText{
-	width:75%;
+	width:100;
 	height:50px;
 	margin:0 auto 100px;
 	text-align:center;
 }
 
 #asset {
-	height: 320px;
+	min-height: 400px;
 	background-color: #F7F7F7;
 	padding-top: 50px;
 	width: 100%;
+	min-width:900px;
 }
 
 #asset p {
-	color:#353738;
-    margin-bottom: 10px;
+	color: #848789;
+    margin:10px auto 10px;
+	width:100%;
+}
+#asset h2{
+	margin-top:35px;
 }
 
 
 h2, h3 {
-	font-family:"Open Sans Light", sans-serif;
+	font-family:"Open Sans", sans-serif;
 	font-weight:lighter;
 	text-align:center;
 	color:#353738;
@@ -152,6 +157,10 @@ h3 {
 
 #press{
 	width:100%;
+	min-width:900px;
+	height:500px;
+	margin:0 auto 0;
+	position:relative;
 }
 #press-left {
 	background-image:url("images/press-bg.png");
@@ -173,16 +182,19 @@ h3 {
 	margin:0;
 	height:500px;
 	background-color:#ffffff;
+	position:relative;
 }
-#press-text, #disclosure-text {
+#press-text{
+	position:relative;
 	padding:0 60px;
 	height:350px;
 }
+
 p.gp_presstextpar{
 	color:#848789;
 	font-size:0.75em;
 	line-height:1.9em;
-	text-align:justify;
+	text-align:center;
 	margin-top:80px;
 }
 #press-text h2, #disclosure-text h2 {
@@ -231,48 +243,87 @@ div.button {
 
 #purchase {
 	background-color:#ffffff;
-	height: 615px;
+	height: 550px;
 	position: relative;
 	display: inline-block;
-	padding: 50px 10%;
+	width: 100%;
+	min-width: 900px;
+}
+#purchase-text{
+	height:550px;
+	width:55%;
+	float:left;
+	background-color: #f7f7f7;
+	padding: 0;
+	margin: 0 5% 0 0;
 }
 #purchase p, #exchange p {
 	text-align:center;
 	color:#848789;
 	line-height: 2em;
+}
+#exchange p {
 	width: 100%;
 }
+.purchase-title{
+	margin-top:40px;
+}
+#purchase p{
+	width: 100%;
+	margin: 0 auto 30px;
+}
+
 #purchase-form{
 	width: 75%;
 	margin: 0 auto;
 }
-#mailing-form.purchaseForm,
-#fullname.purchaseForm{
+.purchaseForm {
 	width: 100%;
 	margin: 10px auto 0;
 	height: 40px;
 	padding-left: 10px;
+}
+.Purchase_info{
+	float: left;
+	width: 40%;
+	margin-top: 20px;
+	
+}
+.purchase-details{
+	color: #848789;
+	line-height: 2em;
+	text-align: left;
+	font-size: .9em;
+	margin-right: 5%;
 }
 
 #disclosure{
 	background:url(images/press-bg.png);
 	background-repeat:no-repeat;
 	width:100%;
-	min-height:500px;
+	height: 450px;
 	background-size:cover;
+	margin:0 auto 0;
+	position:relative;
 }
 
 #disclosure-middle {
-	width:34%;
-	background-color:#ffffff;
+	width:39%;
+	height: 450px;
+	background-color:#f7f7f7;
 	margin: 0 auto 0;
 }
+#disclosure-text {
+	position: relative;
+	margin: 0 7%;
+}
+
 #disclosure-text p{
 	color: #848789;
 	font-size: 0.75em;
 	line-height: 1.9em;
 	text-align: justify;
-	margin-top: 30px;
+	margin: 30px auto 43px;
 
 }
 .gp-TwitterSlide{
@@ -326,16 +377,35 @@ div.button {
 }
 #exchange {
 	width:100%;
-	height:350px;
-	background-color:#ffffff;
-	position:relative;
-}
-#exchange.infographic {
-//	background:url(images/press-bg.png);
-    background-color: #233443;
-    background-repeat: no-repeat;
-    background-size: cover;
 	height:580px;
+	position:relative;
+	background-color: #233443;
+}
+.infographic {
+	background:url(images/infographic.png);
+    background-repeat: no-repeat;
+	height:580px;
+	width:80%;
+	margin:0 auto;
+	background-size:cover;
+
+}
+.graph_container{
+	background-color:#ffffff;
+	width:100%;
+	min-width:900px;
+	height:500px;
+}
+.graph{
+	background:url(images/Park_Graph.jpg);
+	background-size: contain;
+	width: 75%;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	margin: 20px auto 0;
+}
+.graph-title{
+	margin-top:40px;
 }
 #exchange.infographic img {
 	margin: 0px auto 0px auto;
@@ -349,7 +419,12 @@ div.button {
 	width:75%;
 	margin:0 auto;
 }
-
+.white_margin{
+	width:100%;
+	height:30px;
+	background-color:#ffffff;
+	margin:0 auto;
+}
 
 #mailing {
 	padding-top:50px;
@@ -460,7 +535,7 @@ div.button {
 .price_distribution_Assets,
 .tablebg_Assets{
 	width:33%;
-	height:200px;
+	height:100px;
 	float:left;
 	margin-top:35px;
 }
@@ -487,7 +562,7 @@ div.button {
 }
 
 #asset-table tfoot td {
-    font-size: 21px;
+    font-size: 16px;
 }
 
 .sales{
@@ -521,7 +596,7 @@ dt:after{
 }
 dd { 
 	display:block;
-	font-size:21px;
+	font-size:16px;
 }
 dd span{
 	font-size:11px;
@@ -533,6 +608,11 @@ dd span{
 	height: 100px;
 	color: #848789;
 	font-weight: 100;
+}
+.residence_form_label_one,
+.residence_form_label_two,
+.residence_form_label_three{
+	font-size:.8em;
 }
 .residence_form_label_one{
 	width:34%;
@@ -549,7 +629,7 @@ dd span{
 	display:inline-block;
 	width:100%;
 	text-align:center;
-	margin-top:50px;
+	margin-top:15px;
 }
 .residence_form_label_three a{
 	text-decoration: none;
