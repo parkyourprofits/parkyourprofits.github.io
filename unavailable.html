@@ -10,17 +10,11 @@
 </head>
 <body>
 
-<!-- BEGIN PAGE CONTAINER -->
-
 <div class="gp-pagecontainer">
 
     <div class="intro_container">
 
         <div class="hero_image">
-
-
-
-        <!-- BEGIN INtro and HEADER AND NAV -->
 
                 <div id="header">
 
@@ -60,13 +54,6 @@
 
          </div>
      </div>
-
-
-	<!-- END INTRO and HEADER AND NAV -->
-
-
-
-    <!-- BEGIN ASSET SLIDE -->
 
     <div id="asset">
         <h2>ASSET</h2>
@@ -114,9 +101,6 @@
 
     </div>
 
-    <!-- END ASSET SLIDE -->
-
-   <!-- BEGIN EXCHANGE SLIDE -->
     <div id="exchange">
     	<div class="infographic">
 
@@ -131,9 +115,6 @@
 
     </div>
 
-
-    <!-- BEGIN GRAPH -->
-
     <div class="graph_container">
 
     	<h2 class="graph-title">NET RETURNS OVER TIME</h2>
@@ -145,18 +126,8 @@
 
     </div>
 
-
-
-    <!-- END GRAPH -->
-
-    <!-- BEGIN CALL TO ACTION SLIDE -->
-
-
-
     <div class="white_margin">
     </div>
-
-
 
     <div class="button-bg">
 
@@ -171,10 +142,6 @@
 
 
     </div>
-
-    <!-- END CALL TO ACTION SLIDE -->
-
-    <!-- BEGIN PRESS SLIDE -->
 
     <div id="press">
 
@@ -206,12 +173,6 @@
         </div>
     </div>
 
-    <!-- END PRESS SLIDE -->
-
-
-
-   <!-- BEGIN DISCLOSURE SLIDE -->
-
     <div id="disclosure">
 
         <div id="disclosure-middle">
@@ -225,10 +186,6 @@
                 <p>PARK is domiciled under a Wyoming management company that offers LLC placement to registered investors. The LLCs are designed to function like a Trust would. A lower yield is available to holders of the management company's bearer scrip, by identifying oneself and swapping for Membership, the full yield can be received. For more information download our disclosure package.</p>
             </div>
 
-
-    <!-- BEGIN CALL TO ACTION SLIDE -->
-
-
         	<div class="button-bg">
         		<div class="arrow-down">
                 </div>
@@ -241,14 +198,7 @@
 
      </div>
 
-    <!-- END CALL TO ACTION SLIDE -->
-
     </div>
-
-    <!-- END DISCLOSURE SLIDE -->
-
-
-    <!-- BEGIN PURCHASE SLIDE -->
 
     <div id="purchase">
 
@@ -306,16 +256,6 @@
 
     </div>
 
-
-   <!-- END PURCHASE SLIDE -->
-
-
-
-
-
-    <!-- BEGIN MAILING SLIDE -->
-
-
     <div id="mailing">
 
         <div class="gp_mailLogo">
@@ -333,13 +273,6 @@
         </div>
 
     </div>
-
-    <!-- END MAILING SLIDE -->
-
-
-
-	<!-- BEGIN FOOTER -->
-
 
     <div id="footer">
 
@@ -363,10 +296,8 @@
 
     </div>
 
-	<!-- END FOOTER -->
 </div>
 
-	<!-- END PAGE CONTAINER -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="assets/bower/jquery.countdown/jquery.countdown.js"></script>
 <script src="jquery.nav.js"></script>
@@ -377,7 +308,7 @@ $(function() {
     scrollThreshold: 0.3
   });
   $('#clock').countdown(new Date(Date.UTC(2016, 7 /* 0-11 */, 2, 0, 0, 0))).on('update.countdown', function(event) {
-    var $this = $(this).html(event.strftime(''
+    $(this).html(event.strftime(''
     + '<span>%-D</span> day%!d '
     + '<span>%H</span> hr '
     + '<span>%M</span> min '
