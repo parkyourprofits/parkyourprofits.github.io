@@ -4,12 +4,11 @@
 	<meta charset="utf-8">
   <title>Park</title>
 	<link rel="stylesheet" href="park-styles.css" type="text/css">
-    <script src="https://use.typekit.net/obr4ykj.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-</head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"></head>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <body>
 
-<div class="gp-pagecontainer">
+<div class="gp-pagecontainer" ng-app="parkPurchaseApp">
 
     <div class="intro_container">
 
@@ -25,7 +24,7 @@
 
                         <div id="nav">
                             <ul class="gp-menu">
-                                <li class="gp-menuitem"><a href="#asset">ASSET</a></li>
+                                <li class="gp-menuitem"><a href="#info">INFO</a></li>
                                 <li class="gp-menubullet">.</li>
                                 <li class="gp-menuitem"><a href="#press">PRESS</a></li>
                                 <li class="gp-menubullet">.</li>
@@ -46,7 +45,7 @@
                         <div class="gp-bigwhite_Park_logo">
                         </div>
 
-                        <div class="gp-heroText"><p>Airport Parking Investment, Over the Bitcoin Blockchain</p>
+                        <div class="gp-heroText"><p>Airport Parking, Over the Bitcoin Blockchain</p>
                         </div>
 
                 </div>
@@ -55,15 +54,18 @@
      </div>
 
     <div id="asset">
-        <h2>ASSET</h2>
+        <h2></h2>
 		<div class="center-text">_
         </div>
         <div class="center-text">
-          <p>Park tokens represent 1/2000th of a parking space at Glasgow Airport, every week holders receive a distribution of cashflow from parking revenue.</p>
+          <p>PARK is new digital asset bridging the gap between <q>old world finance</q> and the new age of digital currencies, such as Bitcoin, through a passion for modern technology and a desire to move with the times.</p>
         </div>
 
         <div class="price_distribution_Assets">
             <dl>
+            	<div class="park_icon_one">
+                </div>
+
                 <dt>PARK PRICE</dt><dd>£10</dd>
                 <dt>WEEKLY DISTRIBUTION</dt><dd>p1.27 <span>(6.8% yearly)</span></dd>
             </dl>
@@ -71,12 +73,20 @@
 
 
         <div class="SaleBegins_Assets">
+
+        	<div class="park_icon_two">
+            </div>
+
             <div class="sales">SALE BEGINS &sol; NEXT DISTRIBUTION</div>
             <p id="clock" class="clock-text"></p>
         </div>
 
 
         <div class="tablebg_Assets">
+
+             <div class="park_icon_three">
+             </div>
+
              <table id="asset-table">
               <tbody>
                 <tr>
@@ -97,29 +107,14 @@
 
     </div>
 
-    <div id="exchange">
-    	<div class="infographic">
-
-        <!-- Temporary removal
-        <div id="exchange-text">
-            <h2>EXCHANGE</h2>
-            <div class="center-text">_</div>
-            <p>Partner Exchanges Coming Soon</p>
+    <div class="graph_container">
+    	<div class="cash_flow_graph">
         </div>
-        -->
-        </div>
-
     </div>
 
     <div class="graph_container">
-
-    	<h2 class="graph-title">NET RETURNS OVER TIME</h2>
-		<div class="center-text">_
+    	<div class="net_returns_graph">
         </div>
-
-    	<div class="graph">
-        </div>
-
     </div>
 
     <div class="white_margin">
@@ -141,7 +136,7 @@
     <div id="press">
 
         <div id="press-left">
-            <img alt="white logo" src="images/white-logo.png">
+            <img alt="white logo" src="images/park-logo-white.png">
         </div>
 
         <div id="press-right">
@@ -168,7 +163,7 @@
         </div>
     </div>
 
-    <div id="disclosure">
+    <div id="disclosure_OG">
 
         <div id="disclosure-middle">
 
@@ -182,49 +177,250 @@
             </div>
 
         	<div class="button-bg">
+
         		<div class="arrow-down">
                 </div>
 
                 <div class="button" >
                     <p>Read Disclosures</p>
                 </div>
-            </div>
 
+            </div>
 
      </div>
 
     </div>
 
+    <div id="disclosure">
+
+        <div class="faq_section">
+
+        	<div class="faq_title">FAQ
+            </div>
+
+            <div class="center-text-faq">_
+       		</div>
+
+            <div class="faq_questions">
+
+                <div id="main_q1" class="faq_Q-ONE">
+                      <input id="toggle" type="checkbox" checked>
+                      <label id="fuq_one" for="toggle"><span style="text-decoration:underline;">Why create a blockchain token for parking lots?</span></label>
+
+                      <div id="expand">
+                        <section>
+                          <p class="fuq_answertext">We are entering a new era of global capital based on blockchain transactions. The ability to move, trade and collect distributions from a property asset over the Bitcoin blockchain is a big deal for finance. Fungibility and flexibility meets real assets housed in the best legal structure available in the world. </p>
+                        </section>
+                      </div>
+                 </div>
+
+                <div id="main_q1" class="faq_Q-ONE">
+                      <input id="toggle" type="checkbox" checked>
+                      <label id="fuq_one" for="toggle"><span style="text-decoration:underline;">How is a blockchain security legal?</span></label>
+
+                      <div id="expand">
+                        <section>
+                          <p class="fuq_answertext">The Corporations Acts of some US states permit the issuance of a bearer scrip redeemable for the company’s common stock. In order to redeem the scrip, one must identify themselves to become legally registered as the owner of the shares. However the scrip is also legally considered a security, because it constitutes a sort of investment contract between the management company and the token holder.</p>
+                        </section>
+                      </div>
+                 </div>
+
+
+                <div id="main_q1" class="faq_Q-ONE">
+                      <input id="toggle" type="checkbox" checked>
+                      <label id="fuq_one" for="toggle"><span style="text-decoration:underline;">Who can legally buy new PARK tokens?</span></label>
+
+                      <div id="expand">
+                        <section>
+                          <p class="fuq_answertext">
+	US residents of any income level in states where we have completed a filing and registration of disclosure documents will be eligible to purchase PARK. We will enable the full purchase experience for residents of different states shortly after receiving approvals from the relevant authorities. The residents of most Latin American and African countries are able to legally invest in these tokens. Non-accredited investors in the UK will become eligible pending listing of PARK on an FCA-licensed crowdfunding portal. Consult the laws of your home country for more information.
+</p>
+                        </section>
+                      </div>
+                 </div>
+
+
+                <div id="main_q1" class="faq_Q-ONE">
+                      <input id="toggle" type="checkbox" checked>
+                      <label id="fuq_one" for="toggle"><span style="text-decoration:underline;">What is the difference between PARK and LLC tokens?</span></label>
+
+                      <div id="expand">
+                        <section>
+                          <p class="fuq_answertext">
+The title to commercial real estate assets - parking lots in major UK airports - as well as a set of cashflow contracts, are legally owned by Limited Liability Companies (LLCs). PARK is issued by a management corporation that manages the LLCs. PARK is bearer scrip, but can be redeemed for common stock in the management corporation.
+
+Cashflow distributions paid to common stock holders, as to the holders of PARK tokens, may be subject to less optimal taxation and more filing overhead than being the holder of membership in one of the LLCs and receiving the cashflow directly as pass-through-income. That means, you are responsible for paying tax on the income in your home jurisdiction, or if a US person, as ordinary income at your marginal tax rate - with no tax overheads, no filings concerns, no reporting needed other than to add the income to your annual tax statement.
+
+LLC tokens are issued to replace PARK tokens redeemed, these are indivisible tokens that must not be moved from the address requested, or a change of Bitcoin address must be reported to update our register, in order to ensure there is an identity match between the registered owner and the controller of the address where the LLC tokens are held. Then, a larger cashflow distribution payment, which does not involve any tax withholding as affects the PARK token, will hit addresses containing LLC tokens.
+
+The added benefit of LLC membership is security - your registered identity is kept in the management company’s records and is protected by the privacy provisions Wyoming courts. If the LLC tokens are lost due to theft of a private key controlling a Bitcoin address, or perhaps a water mishap that fried the hard drive, a new tranche of tokens can easily be issued to replace the old ones, with that particular LLC’s cashflow distributions routing to them.
+</p>
+                        </section>
+                      </div>
+                 </div>
+
+                <div id="main_q1" class="faq_Q-ONE">
+                      <input id="toggle" type="checkbox" checked>
+                      <label id="fuq_one" for="toggle"><span style="text-decoration:underline;">How do I know the structure protects investor interests?</span></label>
+
+                      <div id="expand">
+                        <section>
+                          <p class="fuq_answertext">
+The PARK product is structured like a trust but using the provisions of LLC organization and they By Laws of the management corporation. The management corporation has deferred ownership of its common stock to act as a pool-in-common for the purpose of functioning as a Real Estate Investment Trust, and no officer holds a beneficial interest in the common stock. The holding LLC operating agreements are extremely rigid and define only a few discrete actions that can be taken with the assets, and a strict pro-rata distribution of cashflow received minus a 2% fee. There are provisions for placing holders of PARK into LLC membership and visa versa, provisions for acquiring a specific number of properties, and no flexibility for management to liquidate assets except by election of members to exercise a buy-back option after a five year term. The management team is subject to regulatory oversight in terms of disclosed information associated with the security offering by the SEC in the United States and the FCA in the United Kingdom, as well as accounting standards to meet in conjunction with the requirements of the IRS and HMRC. This product rests on the shoulders of some of the strongest legal systems in the world with the most efficacious regulatory environments for financial products.
+
+</p>
+                        </section>
+                      </div>
+                 </div>
+
+
+                <div id="main_q1" class="faq_Q-ONE">
+                      <input id="toggle" type="checkbox" checked>
+                      <label id="fuq_one" for="toggle"><span style="text-decoration:underline;">How can I own PARK or LLC tokens through a retirement account?</span></label>
+
+                      <div id="expand">
+                        <section>
+                          <p class="fuq_answertext">
+PARK and other blockchain-based assets can be held in self-directed retirement accounts. Under US law, a Self-directed IRA custodian must be appointed and instructed to invest the IRA assets held in trust into an LLC that acts as one’s wealth management vehicle, and then that LLC can buy almost any asset in the world, including physical metals held in allocated vaults, property, bitcoin, term deposits that earn interest from leverage use on bitcoin exchanges, and assets issued over the Bitcoin blockchain. For the retirement account laws of other jurisdictions, consult a tax professional.
+
+</p>
+                        </section>
+                      </div>
+                 </div>
+
+
+
+                <div id="main_q1" class="faq_Q-ONE">
+                      <input id="toggle" type="checkbox" checked>
+                      <label id="fuq_one" for="toggle"><span style="text-decoration:underline;">How often will PARK and LLC tokens receive cashflow distributions?</span></label>
+
+                      <div id="expand">
+                        <section>
+                          <p class="fuq_answertext">
+After an initial activation period, PARK tokens will receive weekly distributions and LLC tokens will receive monthly distributions. Initial activations of new LLC token tranches may be delayed due to variability in banking system clearance of payments.
+
+</p>
+                        </section>
+                      </div>
+                 </div>
+
+
+
+                <div id="main_q1" class="faq_Q-ONE">
+                      <input id="toggle" type="checkbox" checked>
+                      <label id="fuq_one" for="toggle"><span style="text-decoration:underline;">How will distributions be done?</span></label>
+
+                      <div id="expand">
+                        <section>
+                          <p class="fuq_answertext">
+For the initial distributions, PARK holders will receive extra PARK, which is a divisible token that can be sub-divided down to eight decimals. After the activation of a modified version of the transaction type used, Tether Dollars &#40;USDT&#41; will be sent to holders of PARK and LLC tokens in burst transactions that put the right amount of fiat currency on the addresses of different tranche holders.
+</p>
+                        </section>
+                      </div>
+                 </div>
+
+
+                <div id="main_q1" class="faq_Q-ONE">
+                      <input id="toggle" type="checkbox" checked>
+                      <label id="fuq_one" for="toggle"><span style="text-decoration:underline;">What is Tether USD?</span></label>
+
+                      <div id="expand">
+                        <section>
+                          <p class="fuq_answertext">
+Tether &#40;tether.to&#41; is a fiat currency banking trust that backs the issuance of tokens over the Bitcoin blockchain pegged to different national currency denominations, most popularly the US dollar, of which there are currently around six million USD held in reserve and floating as tokens in circulation between different cryptocurrency exchanges and individual wallets. It sees around one million USD in daily volume against bitcoin and ether on the exchange Poloniex, and can be redeemed for USD deposits on top bitcoin/dollar exchange Bitfinex - where verified account holders can also request wire deposits to any bank worldwide. Tether Euros &#40;EURT&#41; are also in circulation and redeemable for SEPA deposits on OpenLedger.
+</p>
+                        </section>
+                      </div>
+                 </div>
+
+
+                <div id="main_q1" class="faq_Q-ONE">
+                      <input id="toggle" type="checkbox" checked>
+                      <label id="fuq_one" for="toggle"><span style="text-decoration:underline;">What is the Decentralized Exchange?</span></label>
+
+                      <div id="expand">
+                        <section>
+                          <p class="fuq_answertext">
+PARK and USDT are both assets issued using the Omni Layer protocol, which adds bits of data to special Bitcoin transactions that get the same security benefits and immortal recording into the blockchain as normal Bitcoin transactions. The OmniDex is an extension of the protocol that allows anyone to trade any pair of assets directly over the Bitcoin blockchain with no custodian or middleman involved. It’s possible to sell PARK for USDT or EURT, as well as a handful of other technology project related assets with market capitalizations totaling over fifty million USD.
+
+	The easiest way to hold, store and trade these assets is with the browser-based Omniwallet: www.omniwallet.org
+</p>
+                        </section>
+                      </div>
+                 </div>
+
+
+
+
+
+
+          </div>
+
+        </div>
+
+
+    </div>
+
     <div id="purchase">
 
-        <div id="purchase-text">
+        <div id="purchase-text" ng-controller="PurchaseFormController">
             <h2 class="purchase-title">PURCHASE</h2>
             <div class="center-text">_</div>
             <p>Enter your contact information and indicate your home jurisdiction to order PARK.</p>
-            <form id="purchase-form" action="https://getsimpleform.com/messages?form_api_token=abdf748b6e0cff589b2d97fd1fbcaac5" method="post">
-                <input type="hidden" name="formname" value="purchase-form">
-                <input type="text" class="purchaseForm" name="fullname" placeholder="full name..." required>
-                <input type="text" class="purchaseForm" name="email" placeholder="enter your email..." required>
-                <input type="text" class="purchaseForm" name="email2" placeholder="confirm your email..." required>
-                <!--<br>-->
+            <form name="purchaseForm" id="purchaseForm" novalidate>
+                <div class="form-group">
+                    <input ng-model="order.fullname" type="text" class="purchaseForm" name="fullname" placeholder="full name..." required>
+                    <div class="" ng-show="purchaseForm.fullname.$touched" ng-messages="purchaseForm.fullname.$error" role="alert">
+                        <div ng-message="required">Name required.</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input ng-model="order.email" type="email" class="purchaseForm" name="email" placeholder="enter your email..." required>
+                    <div class="" ng-show="purchaseForm.email.$touched" ng-messages="purchaseForm.email.$error" role="alert">
+                        <div ng-message="required">Email required.</div>
+                        <div ng-message="email">This is not a valid email.</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input ng-model="order.emailConfirm" type="email" class="purchaseForm" name="emailConfirm" placeholder="confirm your email..." required match="order.email">
+                    <div ng-show="purchaseForm.emailConfirm.$touched" ng-messages="purchaseForm.emailConfirm.$error"  role="alert">
+                        <div ng-message="required">Email required.</div>
+                        <div ng-message="email">This is not a valid email.</div>
+                        <div ng-message="mismatch">Email and Confirm Email must match.</div>
+                    </div>
+                </div>
+                <div class="pricequantity-group">
+                    <input ng-model="order.quantity" type="number" class="purchaseForm purchaseAmount" name="quantity" placeholder="Number of PARK" min="1" max="1000000" required>
+                    <input ng-model="price" type="text" class="purchaseForm purchaseAmount" name="price" readonly>
+                    <div ng-show="purchaseForm.quantity.$touched" ng-messages="purchaseForm.quantity.$error"  role="alert">
+                        <div ng-message="required">Quantity required.</div>
+                        <div ng-message="number">Must be a number.</div>
+                        <div ng-message="min">Minimum purchase of 1 PARK.</div>
+                        <div ng-message="max">Max purchase of 1000000 PARK.</div>
+                    </div>
+                </div>
                 <div class="form_selectors">
                   <label class="residence_form_label_one">Country of Residence
-                      <select>
-                        <option value="ca">Canada</option>
-                        <option value="uk">UK</option>
-                        <option value="us" selected>USA</option>
+                      <select ng-model="country" name="country" ng-options="country.name for country in countries track by country.code" required>
+                          <option value="">-- Select Your Country --</option>
                       </select>
                   </label>
-                  <!--<br>-->
                   <label class="residence_form_label_two">State of Residence
-                      <select>
-                        <option value="ca">California</option>
-                        <option value="nv">Nevada</option>
+                      <select ng-model="state" name="state" ng-disabled="disableState" ng-options="state.name for state in states track by state.code" required>
+                          <option value="">-- Select Your State --</option>
                       </select>
                   </label>
-                  <!--<br>-->
-                  <label class="residence_form_label_three"><input type="checkbox" name="agree"> I accept the <a href="pdfs/SubscriptionAgreement.pdf" target="_blank">Subscription Agreement</a></label>
+                    <label class="residence_form_label_three"><input ng-model="order.agree" type="checkbox" name="agree" required> I accept the <a href="pdfs/SubscriptionAgreement.pdf" target="_blank">Subscription Agreement</a></label>
+
                 </div>
+                <div ng-show="purchaseForm.country.$touched" ng-messages="purchaseForm.country.$error" role="alert">
+                    <div ng-message="required">Country is required.</div>
+                    </div>
+                <div ng-show="purchaseForm.state.$touched" ng-messages="purchaseForm.state.$error" role="alert">
+                    <div ng-message="required">State is required (for USA).</div>
+                </div>
+                <button ng-click="submit(order)" type="submit" ng-disabled="purchaseForm.$invalid" form="purchaseForm">Buy PARK</button>
+                <div ng-show="purchaseForm.message">{{purchaseForm.message}}</div>
             </form>
         </div>
 
@@ -294,8 +490,11 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-messages.min.js"></script>
 <script src="assets/bower/jquery.countdown/jquery.countdown.js"></script>
 <script src="jquery.nav.js"></script>
+<script src="js/app.js"></script>
 <script>
 $(function() {
   $('#navbar').onePageNav({

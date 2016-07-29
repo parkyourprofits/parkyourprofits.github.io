@@ -1,3 +1,7 @@
+[ng-cloak] {
+	display: none !important;
+}
+
 body {
 	font-family:"Open Sans", sans-serif;
 	margin:0;
@@ -110,7 +114,7 @@ body {
 .gp-bigwhite_Park_logo{
 	width: 16%;
 	height: 150px;
-	background:url(images/white-logo.png);
+	background:url(images/park-logo-white.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 	margin:150px auto 10px;
@@ -123,7 +127,7 @@ body {
 }
 
 #asset {
-	min-height: 400px;
+	min-height: 500px;
 	background-color: #F7F7F7;
 	padding-top: 50px;
 	width: 100%;
@@ -203,7 +207,7 @@ p.gp_presstextpar{
 
 .center-text {
 	text-align:center;
-	margin:7px 0 40px;
+	margin:7px 0 10px;
 }
 .arrow-down {
 	width: 0; 
@@ -243,15 +247,15 @@ div.button {
 
 #purchase {
 	background-color:#ffffff;
-	height: 550px;
+	height: 650px;
 	position: relative;
 	display: inline-block;
 	width: 100%;
 	min-width: 900px;
 }
 #purchase-text{
-	height:550px;
-	width:55%;
+	height:650px;
+	width:50%;
 	float:left;
 	background-color: #f7f7f7;
 	padding: 0;
@@ -269,7 +273,7 @@ div.button {
 	margin-top:40px;
 }
 #purchase p{
-	width: 100%;
+	width: 60%;
 	margin: 0 auto 30px;
 }
 
@@ -283,39 +287,50 @@ div.button {
 	height: 40px;
 	padding-left: 10px;
 }
+.purchaseForm.purchaseAmount {
+	width: 40%;
+}
 .Purchase_info{
 	float: left;
 	width: 40%;
-	margin-top: 20px;
+	margin: 50px 2% 0 0;
 	
 }
 .purchase-details{
 	color: #848789;
-	line-height: 2em;
+	line-height: 2.3em;
 	text-align: left;
 	font-size: .9em;
-	margin-right: 5%;
+	margin-right: 8%;
 }
-
+#disclosure_OG{
+	background:url(images/press-bg.png);
+	background-repeat:no-repeat;
+	width:100%;
+	height: 500px;
+	background-size:cover;
+	margin:0 auto 0;
+}
 #disclosure{
 	background:url(images/press-bg.png);
 	background-repeat:no-repeat;
 	width:100%;
-	height: 450px;
+	height: 1200px;
 	background-size:cover;
 	margin:0 auto 0;
-	position:relative;
 }
 
 #disclosure-middle {
-	width:39%;
-	height: 450px;
+	width:40%;
+	height: 500px;
 	background-color:#f7f7f7;
-	margin: 0 auto 0;
+	position:relative;
+	margin:0 auto;
 }
 #disclosure-text {
 	position: relative;
-	margin: 0 7%;
+	margin: 0 auto;
+	height: 350px;
 }
 
 #disclosure-text p{
@@ -323,7 +338,8 @@ div.button {
 	font-size: 0.75em;
 	line-height: 1.9em;
 	text-align: justify;
-	margin: 30px auto 43px;
+	margin: 30px auto 20px;
+	width:85%;
 
 }
 .gp-TwitterSlide{
@@ -391,10 +407,28 @@ div.button {
 
 }
 .graph_container{
-	background-color:#ffffff;
+	background-color:#233443;
 	width:100%;
 	min-width:900px;
-	height:500px;
+	height:auto;
+}
+.cash_flow_graph{
+	width: 100%;
+	min-height: 700px;
+	background:url(images/Contractual_Cashflow_Graphic_REV.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background: cover;
+	margin: 0 auto;
+}
+.net_returns_graph{
+	width: 100%;
+	min-height: 700px;
+	background: url(images/Net_Return_Graph.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background: cover;
+	margin: 0 auto;
 }
 .graph{
 	background:url(images/Park_Graph.jpg);
@@ -535,7 +569,7 @@ div.button {
 .price_distribution_Assets,
 .tablebg_Assets{
 	width:33%;
-	height:100px;
+	height:300px;
 	float:left;
 	margin-top:35px;
 }
@@ -574,8 +608,27 @@ div.button {
 
 .clock-text{
 }
-
-
+.park_icon_one{
+	width:209px;
+	height:159px;
+	background:url(images/park-icons-01_REV.png);
+	background-repeat:no-repeat;
+	margin: 0 auto 20px;
+}
+.park_icon_two{
+	width:100px;
+	height:100px;
+	background:url(images/Park_Coin_Icon.png);
+	background-repeat:no-repeat;
+	margin: 30px auto 50px;	
+}
+.park_icon_three{
+	width:195px;
+	height:127px;
+	background:url(images/park-icons-03_REV2.png);
+	background-repeat:no-repeat;
+	margin: 32px auto 20px;
+}
 dl{
 	width:100%;
 	height:200px;
@@ -652,5 +705,106 @@ select{
 	display:block;
 	clear:both;
 }
+
+/*FAQ Title*/
+
+.faq_section{
+	width:100%;
+	height:600px;
+	float:left;
+}
+
+.faq_title{
+	font-family: "Open Sans", sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	color: #ffffff;
+	letter-spacing: 5px;
+	margin: 0;
+	width:100%;
+	font-size: 1.5em;
+	margin-top: 45px;
+}
+.center-text-faq{
+	text-align:center;
+	margin:7px 0 10px;
+	color:#ffffff;
+}
+#main_q1 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.faq_questions{
+	margin-top:35px;
+}
+.fuq_answertext{
+	text-align:left !important;
+	margin:0 !important;
+	padding:0 0 0 33px !important;
+	font-weight:lighter !important;
+}
+#toggle{
+	height:10px;
+	width:10px;
+	margin:20px;
+}
+
+input #toggle {
+  display: none;
+  visibility: hidden;
+}
+#fuq_one{
+	font-weight:bold !important;
+
+}
+
+label #fuq_one {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: #666;
+}
+label #fuq_one:hover {
+  color: #000;
+}
+label #fuq_one::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+}
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #FFF;
+  text-align:left;
+}
+section {
+  padding: 0 20px;
+}
+#toggle:checked ~ #expand {
+  height: auto;
+}
+#toggle:checked ~ label::before {
+}
+
+.faq_Q-ONE{
+	text-align:left;
+	color:#ffffff;
+	font-size: 1em;
+	line-height:2em;
+}
+/*radio styling*/
+
+
 
 
