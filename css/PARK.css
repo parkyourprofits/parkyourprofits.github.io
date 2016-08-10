@@ -13,6 +13,9 @@ html {
     /*width: 100%;
     margin: 0 auto;*/
 }
+.asset_icons{
+    margin-bottom:100px;
+}
 .navbar-brand{
     height: 80px;
     margin-left:0;
@@ -130,6 +133,7 @@ html {
 .asset-section{
     background-color:#132a42;
     height: auto;
+    padding-bottom:100px;
 }
 .section-title{
     font-size: 36px;
@@ -143,18 +147,81 @@ html {
     margin-top:50px;
 
 }
+.responsiveAssetInfographic {
+    width: 40%;
+}
 .asset-infographic{
     background:url("../images/PARK-ASSET-Graphic.png");
     width: 100%;
     min-height: 355px;
-    background-size: contain;
     background-repeat: no-repeat;
-    margin: 50px 50px 0 0;
+    margin: 50px auto 0;
+    background-size:contain;
+}
+@media only screen and (max-width: 414px) {
+    .responsiveAssetInfographic {
+        margin:10px auto;
+        width:100%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .responsiveAssetInfographic {
+        margin:10px auto;
+        width:100%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .responsiveAssetInfographic {
+        margin:10px auto;
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .asset-infographic{
+        width: 100%;
+        min-height: 300px;
+        background-size: contain;
+    }
+}
+@media only screen and (max-width: 375px){
+    .asset-infographic{
+        width: 80%;
+        min-height: 300px;
+        background-size: contain;
+    }
+}
+@media only screen and (max-width: 320px){
+    .asset-infographic{
+        width: 80%;
+        min-height: 300px;
+        background-size: contain;
+    }
 }
 .text-group{
-    width:55%;
-    margin-left:50px;
+    width:45% !important;
     margin-bottom:55px;
+}
+
+@media only screen and (max-width: 600px){
+    .text-group{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 414px){
+    .text-group{
+        width:100% !important;
+    }
+}
+@media only screen and (max-width: 375px){
+.text-group{
+    width:100%;
+}
+}
+@media only screen and (max-width: 320px){
+    .text-group{
+        width:100%;
+    }
 }
 .paragraph-title{
     color:#ffffff;
@@ -162,6 +229,7 @@ html {
     font-weight: 400;
     text-align: left;
     padding-bottom: 10px;
+    margin-top: 80px;
 }
 .paragraph-title2 {
     margin-top:25px;
@@ -201,7 +269,7 @@ html {
     background: url("../images/Park_Car_BCPMU-left.png");
     background-size:contain;
     background-repeat:no-repeat;
-    width: 40%;
+    width: 155px;
     min-height: 100px;
     margin: 0 auto 0;
 }
@@ -209,7 +277,7 @@ html {
     background: url("../images/Park_Car_GPA-center.png");
     background-size:contain;
     background-repeat:no-repeat;
-    width: 40%;
+    width: 155px;
     min-height: 100px;
     margin: 0 auto 0;
 
@@ -218,7 +286,7 @@ html {
     background: url("../images/Park_Car_PARK-right.png");
     background-size:contain;
     background-repeat:no-repeat;
-    width: 40%;
+    width: 155px;
     min-height: 100px;
     margin: 0 auto 0;
 
@@ -253,6 +321,66 @@ html {
 }
 .howITWorks{
     height:200px;
+}
+@media (min-width: 800px) {
+    .howText {
+        width: 50%;
+        margin:10px auto;
+        padding-bottom:40px;
+    }
+}
+@media (min-width: 800px) {
+    .howITWorks {
+        margin-bottom:50px;
+    }
+}
+@media (min-width: 768px) {
+    .howText {
+        width: 50%;
+        margin:10px auto;
+        padding-bottom:40px;
+    }
+}
+@media (min-width: 768px) {
+    .howITWorks {
+        margin-bottom:50px;
+    }
+}
+@media (min-width: 414px) {
+    .howText {
+        width: 100%;
+        margin:10px auto;
+        padding-bottom:40px;
+    }
+}
+@media (min-width: 414px) {
+    .howITWorks {
+        margin-bottom:50px;
+    }
+}
+@media (min-width: 375px) {
+    .howText {
+        width: 100%;
+        margin:10px auto;
+        padding-bottom:40px;
+    }
+}
+@media (min-width: 375px) {
+    .howITWorks {
+        margin-bottom:50px;
+    }
+}
+@media (min-width: 320px) {
+    .howText {
+        width: 100%;
+        margin:10px auto;
+        padding-bottom:40px;
+    }
+}
+@media (min-width: 320px) {
+    .howITWorks {
+        margin-bottom:50px;
+    }
 }
 .how_number{
     text-align: center;
@@ -294,13 +422,13 @@ html {
     margin-bottom:80px;
 }
 .Contractual_InfoG{
-    background: url("../images/PARK_Contractual_Cashflow_Graphic_REV2.png");
-    background-size: contain;
-    width: 85%;
-    min-height: 500px;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-}
+     background: url("../images/PARK_Contractual_Cashflow_Graphic_REV2.png");
+     background-size: contain;
+     width: 85%;
+     height: 500px;
+     background-repeat: no-repeat;
+     margin: 0 auto;
+ }
 
 .Net_InfoG {
     background: url("../images/PARK_Net_Profits_Graph.png");
@@ -309,6 +437,36 @@ html {
     min-height: 500px;
     background-repeat: no-repeat;
     margin: 0 auto;
+}
+@media (min-width: 800px){
+    .Net_InfoG{
+        min-height:375px;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 768px){
+    .Net_InfoG{
+        height:375px;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 414px){
+    .Net_InfoG{
+        min-height:275px;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 375px){
+    .Net_InfoG{
+        min-height:275px;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 320px){
+    .Net_InfoG{
+        min-height:175px;
+        margin-bottom: 40px;
+    }
 }
 .infographicParagraph{
     height: auto;
@@ -319,6 +477,11 @@ html {
     text-align: center;
     padding: 50px;
     margin-top:50px;
+}
+@media (min-device-width: 414px){
+    .infographicParagraph{
+        margin:0;
+    }
 }
 .infoPar{
     margin:0;
@@ -438,7 +601,25 @@ html {
     border:#020f25;
     height:55px;
     font-weight: 200;
+    font-size:17px;
 }
+
+@media (min-width:414px){
+    .btn.faqbutton{
+        font-size:2vw;
+    }
+}
+@media (min-width:1366px){
+    .btn.faqbutton{
+        font-size:17px;
+    }
+}
+@media (min-width:1920px){
+    .btn.faqbutton{
+        font-size:17px;
+    }
+}
+
 .btn.faqbutton:active,
 .btn.faqbutton:visited{
     background-color:#a9b6bf;
@@ -492,8 +673,8 @@ html {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-.submit {
-    width: 19%;
+.submit.GoButton {
+    width: 50px;
     height: 50px;
     border: 1px solid #0E4B80;
     box-sizing: border-box;
@@ -513,10 +694,48 @@ html {
     width:40%;
     margin:0 auto;
     padding:0;
+    min-width: 300px;
 }
 .SocMediaContainer{
     width:80%;
     margin: 10px auto 100px;
+}
+@media(min-width: 800px){
+    .ResposiveFooterRow{
+        margin-bottom:100px !important;
+        height:100px;
+    }
+
+}
+@media(min-width: 768px){
+    .ResposiveFooterRow{
+        margin-bottom:100px !important;
+        height:100px;
+    }
+}
+@media(min-width: 694px){
+    .ResposiveFooterRow{
+        margin-bottom:100px !important;
+        height:100px;
+    }
+}
+@media(min-width: 414px){
+    .ResposiveFooterRow{
+        margin-bottom:100px !important;
+        height:100px;
+    }
+}
+@media(min-width: 375px){
+    .ResposiveFooterRow{
+        margin-bottom:100px !important;
+        height:100px;
+    }
+}
+@media(min-width: 320px){
+    .ResposiveFooterRow{
+        margin-bottom:100px !important;
+        height:100px;
+    }
 }
 .twitter{
     background: url("../images/Twitter_Logo_White_On_Blue_Circle.png");
